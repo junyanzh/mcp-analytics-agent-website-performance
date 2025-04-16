@@ -45,7 +45,3 @@ When a user asks a question:
 - Google Cloud Project with API access
 - Service account with appropriate permissions
 
-### Running the Application
-```bash
-# Launch the Jupyter notebook
-jupyter notebook analytics_assistant.ipynb
