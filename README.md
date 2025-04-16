@@ -1,5 +1,4 @@
-# mcp-analytics-agent-website-performance
-# MCP Analytics Agent
+# MCP Analytics Agent for Website Performance
 
 An intelligent analytics assistant that processes natural language queries to retrieve and analyze website data through Google Analytics, Search Console, and PageSpeed APIs.
 
@@ -7,7 +6,7 @@ An intelligent analytics assistant that processes natural language queries to re
 
 This project implements a multi-layer agent system using Model-Controlled Proxy (MCP) architecture to create an interactive analytics assistant. The system allows users to ask questions about website analytics in natural language and receives formatted, insightful responses.
 
-![Agent Workflow Process](docs/images/agent-workflow.svg)
+![Agent Workflow Process](Agent%20Workflow%20Process.png)
 
 ## Features
 
@@ -21,7 +20,7 @@ This project implements a multi-layer agent system using Model-Controlled Proxy 
 
 ## System Architecture
 
-![System Architecture](docs/images/system-architecture.svg)
+![System Architecture](System%20Architecture.png)
 
 The system consists of the following components:
 
@@ -31,7 +30,7 @@ The system consists of the following components:
 
 ## Query Processing Flow
 
-![Query Processing Flow](docs/images/query-flow.svg)
+![Query Processing Flow](Query%20Processing%20Flow.png)
 
 When a user asks a question:
 1. The **Orchestrator Agent** analyzes the query and selects the appropriate tools
@@ -39,9 +38,14 @@ When a user asks a question:
 3. The **Executor Agent** makes the API calls and retrieves data
 4. The **Response Generator** creates a user-friendly summary
 
+## Setup and Usage
 
 ### Prerequisites
 - Python 3.8+
 - Google Cloud Project with API access
 - Service account with appropriate permissions
 
+### Running the Application
+```bash
+# Launch the Jupyter notebook
+jupyter notebook analytics_assistant.ipynb
